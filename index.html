@@ -5,18 +5,40 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>HR &amp; Finance Integrations UK | API, Automation &amp; Power BI Consultancy</title>
   <meta name="description" content="UK-based consultancy connecting HR and finance systems—APIs, Microsoft 365 automation, and Power BI reporting. HiBob, Bullhorn, Halo, InTime. Book a 20-min scoping call.">
+  <link rel="canonical" href="https://hfintegrations.co.uk/">
   <style>
+    :root { --mx: 900px; }
     body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; margin: 0; color: #222; line-height: 1.6; }
-    header { padding: 56px 20px 24px; max-width: 900px; margin: 0 auto; }
+    a { color: inherit; }
+    nav { border-bottom: 1px solid #eee; background: #fafafa; }
+    nav .wrap { max-width: var(--mx); margin: 0 auto; padding: 10px 20px; display: flex; gap: 16px; align-items: center; }
+    nav a { text-decoration: none; padding: 6px 8px; border-radius: 6px; }
+    nav a:hover { background: #f0f0f0; }
+    header { padding: 48px 20px 24px; max-width: var(--mx); margin: 0 auto; }
     h1 { font-size: 2rem; margin: 0 0 8px; }
     p.lead { font-size: 1.1rem; margin: 0 0 20px; }
-    section { padding: 0 20px 32px; max-width: 900px; margin: 0 auto; }
+    section { padding: 8px 20px 32px; max-width: var(--mx); margin: 0 auto; }
     ul { padding-left: 18px; }
     .cta { display: inline-block; padding: 12px 18px; text-decoration: none; border: 1px solid #222; border-radius: 6px; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 14px; }
+    .card { border: 1px solid #eee; border-radius: 10px; padding: 16px; }
+    .muted { color: #666; }
     footer { border-top: 1px solid #eee; padding: 16px 20px; font-size: 0.9rem; text-align: center; color: #666; }
   </style>
 </head>
 <body>
+  <nav>
+    <div class="wrap">
+      <strong>HF Integrations</strong>
+      <a href="/">Home</a>
+      <a href="/integrations.html">Integrations</a>
+      <a href="/hibob-halo-integration.html">HiBob ↔ Halo</a>
+      <a href="/bullhorn-power-bi.html">Bullhorn → Power BI</a>
+      <a href="/intime-dynamics-gp.html">InTime → Dynamics GP</a>
+      <a href="mailto:hello@hfintegrations.co.uk?subject=Scoping%20Call">Contact</a>
+    </div>
+  </nav>
+
   <header>
     <h1>HR &amp; Finance Integrations for UK Teams</h1>
     <p class="lead">We connect HR and finance systems—APIs, Microsoft 365 automation, and Power BI reporting.</p>
@@ -26,12 +48,45 @@
   <section>
     <h2>What we do</h2>
     <ul>
-      <li><strong>HiBob ↔ Halo</strong> new-starter automation</li>
-      <li><strong>Bullhorn → Power BI</strong> reporting model</li>
-      <li><strong>InTime → Dynamics GP</strong> exports with VAT &amp; FX logic</li>
+      <li><a href="/hibob-halo-integration.html"><strong>HiBob ↔ Halo</strong></a> new-starter automation</li>
+      <li><a href="/bullhorn-power-bi.html"><strong>Bullhorn → Power BI</strong></a> reporting model</li>
+      <li><a href="/intime-dynamics-gp.html"><strong>InTime → Dynamics GP</strong></a> exports with VAT &amp; FX logic</li>
       <li><strong>Microsoft 365 automation</strong> for Outlook &amp; Teams</li>
     </ul>
     <p><strong>Outcomes:</strong> faster onboarding, cleaner data, accurate reporting.</p>
+  </section>
+
+  <section>
+    <h2>How we work</h2>
+    <div class="grid">
+      <div class="card"><strong>Discover</strong><br> Map systems, fields, owners, and rules. Confirm security and DPA.</div>
+      <div class="card"><strong>Design</strong><br> Event triggers, API endpoints, transforms, idempotency, errors, observability.</div>
+      <div class="card"><strong>Build &amp; Test</strong><br> Connector/middleware, retries, UAT with representative cases.</div>
+      <div class="card"><strong>Go-live &amp; Support</strong><br> Phased rollout, monitoring, docs, and SLA-backed support.</div>
+    </div>
+    <p class="muted">Typical fixed-scope builds: £3,500–£12,000 depending on complexity. Retainers from £1,000/mo.</p>
+  </section>
+
+  <section>
+    <h2>Popular accelerators</h2>
+    <p><a href="/integrations.html">See all integrations →</a></p>
+    <div class="grid">
+      <div class="card">
+        <h3 style="margin-top:0;">HiBob ↔ Halo onboarding</h3>
+        Automate tickets, tasks, and notifications for new starters.
+        <p><a href="/hibob-halo-integration.html">Learn more →</a></p>
+      </div>
+      <div class="card">
+        <h3 style="margin-top:0;">Bullhorn → Power BI</h3>
+        Clean model, status priority, FX→GBP, and scheduled refresh.
+        <p><a href="/bullhorn-power-bi.html">Learn more →</a></p>
+      </div>
+      <div class="card">
+        <h3 style="margin-top:0;">InTime → Dynamics GP</h3>
+        VAT-correct gross, FX conversion, and export hygiene.
+        <p><a href="/intime-dynamics-gp.html">Learn more →</a></p>
+      </div>
+    </div>
   </section>
 
   <footer>© HF Integrations · UK-based · hello@hfintegrations.co.uk</footer>
